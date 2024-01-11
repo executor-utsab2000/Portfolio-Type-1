@@ -1,0 +1,70 @@
+.coolinput {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: static;
+    /* max-width: 240px; */
+  }
+  
+.coolinput input::placeholder{
+    color: aqua;
+    font-weight: 650;
+    letter-spacing: 1px;
+}
+
+
+  .coolinput label {
+    font-size: 0.8rem;
+    color: #818CF8;
+    font-weight: 700;
+    position: relative;
+    top: 0.5rem;
+    margin: 0 0 0 7px;
+    padding: 0 3px;
+    background: #000033;
+    width: fit-content;
+  }
+  
+  .coolinput input , textarea {
+    color: yellow;
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 2px #818CF8 solid;
+    border-radius: 5px;
+    background: #000033;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    resize: none  ;
+  }
+  
+  .coolinput input:focus {
+    outline: none;
+    background-color: #1A237E;
+  
+  }
+  .coolinput textarea:focus {
+    outline: none;
+    background-color: #1A237E;
+  
+  }
+
+
+  .contactFormRightHeader{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #818CF8;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .contactFormRightText{
+    text-align: center;
+    font-size: 0.7rem;
+    color: #FFECB3;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  .contactFormRightHr{
+    width: 100%;
+  }

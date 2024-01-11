@@ -1,0 +1,37 @@
+.accordianHeader {
+    overflow: hidden;
+    border-radius: 10px;
+    color: #66CCFF !important;
+    background-color: #000066 !important;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    outline: none;
+
+}
+
+.accordianBody {
+    border: none;
+    outline: none;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #003399 !important;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #FFEB3B;
+
+}
+
+.accordianBody p {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 0.8rem;
+    color: #FFEB3B;;
+}
+
+.accordianBody span {
+    font-size: 0.6rem;
+    padding-left: 1rem;
+    color: #E1F5FE;
+}

@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+
+
+
+
+.bgNav{
+    /* backface-visibility: 0.6;
+    opacity: 0.7; */
+    width: 25vw;
+    min-width: 15.8rem;
+    position: fixed;
+    background-color: #E3F2FD;
+    background-image: url('https://wallpapercave.com/wp/wp5569650.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    overflow-y: scroll;
+    display: block;
+    box-sizing: border-box;
+    
+}   
+
+.bgNavoverlay{
+    z-index: -1;
+    width: 25vw;
+    min-width: 15.8rem;
+    position: fixed;
+    background-color: black;
+    height: 100vh;
+    overflow-y: scroll;
+    display: block;
+    box-sizing: border-box;
+    opacity: 0.4;
+}
+
+.smallNav{
+    width: 100%;
+    z-index: 50 !important;
+    position: fixed;
+    display: none; 
+    /* background-color: #E3F2FD; */
+    background-image: url('https://www.fireworks-videos.com/wp-content/uploads/2020/02/background_stars-and-sky_2160p.jpg');
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-bottom: #1E88E5 3px solid;
+}
+
+.Dp{    
+    /* position: absolute; */
+    margin-top: 2rem;
+    height: 8rem;
+    width: 8rem;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.DpSmall{
+    height: 5rem;
+    width: 5rem;
+    border: 2px solid #000066;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.navName{
+    font-family: Rubik Bubbles;
+    font-size: 2.2rem;
+    color: #CCFFFF;
+    letter-spacing: 2px;
+}
+
+.designation{
+    font-size: 1rem;
+    color: #66FFFF;
+    letter-spacing: 1px;
+
+}
+
+hr{
+    border: 2px solid #888;
+    width: 80%;
+}
+
+.navLink{
+    text-transform: uppercase !important;
+    font-size: 0.8rem ;
+    font-weight: 800;
+    color: #CFD8DC !important;
+    letter-spacing: 1px;
+}
+
+.navLink:hover {
+    text-decoration:  underline;
+    text-decoration-color: #546E7A;
+    color: #546E7A;
+    font-size: 0.84rem;
+}
+
+.footerBig{
+    padding: 0;
+    width: 100%;
+    background-color: #263238;
+    color: #FFEB3B;
+    font-size: 0.7rem;
+    font-weight: bold;
+    letter-spacing: 1px ;
+    word-spacing:  2px;
+}
+
+
+.footerBig table {
+    width: 80%;
+}
+
+
+.footerBig table a i{
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    background-color: #78909C;
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+
+    .facebook:hover{
+    background-color: #1E88E5;
+}
+    .github:hover{
+    background-color: black;
+}
+    .linkedin:hover{
+    background-color: #0D47A1;
+}
+    .instagram:hover{
+    background-color: #663dff;
+    background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+
+}
+    .email:hover{
+    background-color: #F44336;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bgNav::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .bgNav::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 60px;
+  }
+  
+  .bgNav::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+  }
+
+.bgNavoverlay::-webkit-scrollbar {
+    display: none;
+  }
+
+  
+  
+
+  @media (max-width:991.5px) {
+    .bgNav {
+        display: none;
+    }
+    .smallNav{
+        display: block;
+    }
+
+}

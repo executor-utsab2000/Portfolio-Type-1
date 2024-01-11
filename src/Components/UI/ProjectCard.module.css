@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Fjalla+One&family=Rubik:wght@800&display=swap');
+
+.cardContainer {
+    color: #66CCFF;
+    background-color: #000070;
+    width: 18rem;
+    min-width: 14rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.cardContainer hr{
+        margin: 10px auto;
+        border-radius: 10px;
+}
+
+.cardContainer img {
+    height: 12rem;
+    width: auto;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+
+.cardContainer h4 {
+    font-size: 1.2rem;
+    font-family: 'Rubik', sans-serif;
+    color: #33FFFF;
+}
+
+.cardContainer h6{
+    font-size: 0.6rem;
+    color: #33CCFF;
+    font-weight: 700;
+}
+
+
+.cardContainer p{
+    font-family: 'Dhurjati', sans-serif; 
+    font-size: 0.8rem;
+    color:#66CCFF ;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.cardContainer a{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    background-color:#000033;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
+    color: #33FFFF;
+}
+
+.cardContainer a:hover{
+    background-color: #3300CC;
+    color: #CCFF00;
+    font-weight: bold;
+}

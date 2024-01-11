@@ -1,0 +1,44 @@
+.mainBg {
+  background-color: #000033;
+}
+
+/* color:#66CCFF ;
+background-color: #000066; */
+
+/* 
+.navScroll::-webkit-scrollbar {
+    display: none;
+    background-color: transparent;
+  }
+    
+  .navScroll::-webkit-scrollbar-track {
+    display: none; 
+    background-color: transparent;
+  
+  } */
+
+.iconTable {
+  display: none;
+  left: 0;
+  top: 45%;
+  position: fixed;
+  font-size: 1.2rem;
+  /* border:red 3px solid; */
+  padding: 10px 10px;
+  border-radius: 10px;
+  /* background-color: azure; */
+  /* z-index: 20; */
+
+}
+
+.iconTable td a i {
+  color: #CCFF00;
+}
+
+
+
+@media (max-width :991.5px) {
+  .iconTable {
+    display: block;
+  }
+}

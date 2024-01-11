@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@700&display=swap');
+
+
+
+.progresContainer{
+    height: 2rem;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: #D4E6F1;
+}
+
+.progresContainer>div{
+    font-weight: 700;
+    border-radius: 20px;
+    color: black;
+}
+
+.faLogo{
+    padding: 5px;
+    margin: 0;
+    font-size: 1.5rem;
+}
+.faLogo2{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.header{
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-family: 'Kalnia', serif;
+    color:#66CCFF
+}
